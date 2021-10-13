@@ -1,0 +1,214 @@
+body,h1,h2,h3,h4,h5,h6,p,a,button,.cbp-l-filters-buttonCenter .cbp-filter-item{
+    font-family: "Cairo";
+}
+@font-face {
+    font-family: "Cairo";
+    src: url('../fonts/Cairo/Cairo-Regular.ttf');
+}
+
+.sidemenu_btn {
+ 
+    left: 15px;
+    right: unset;
+}
+.footer_section {
+ 
+    text-align: right;
+    h4{
+        color: #fff;
+    }
+    .company-info 
+    {
+        ul{
+            li{
+                color: #ccc;
+                font-size: 13px;
+            }
+        }
+    }
+ 
+    .newsletter-subscribe form .form-control {
+        background: #eff1f4;
+        border: none;
+        border-radius: 3px;
+        box-shadow: none;
+        outline: none;
+        color: inherit;
+        text-indent: 9px;
+        padding: 21px 32px;
+         margin: 0 !important;
+     }
+    
+    .newsletter-subscribe form .btn {
+        padding: 16px 32px;
+        border: none;
+        background: none;
+        box-shadow: none;
+        text-shadow: none;
+        opacity: 0.9;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 13px;
+        letter-spacing: 0.4px;
+        line-height: 1
+    }
+    
+    .newsletter-subscribe form .btn:hover {
+        opacity: 1
+    }
+    
+    .newsletter-subscribe form .btn:active {
+        transform: translateY(1px)
+    }
+    
+    .newsletter-subscribe form .btn-primary {
+        background-color: #ed1c24 !important;
+        color: #fff;
+        font-family: "Cairo";
+        outline: none !important;
+        border: unset;
+        border-radius: 5px;
+
+    }
+    
+}
+ 
+.half_section_main .side_section_text 
+{
+    text-align: right;
+}
+.default_divider {
+    width: 70px;
+    margin: 20px 0;
+}
+.progress_bar span {
+    position: absolute;
+    right: 97%;
+    left: unset;
+}
+
+.slider-sec  
+{
+    h4{
+        color: #fff;
+    }
+   .breadcrumb-items
+   {
+       ol{
+        background: transparent;
+      li {
+          a{
+            color: #fff;
+          }
+      }
+       }
+
+   }
+}
+#contactus{
+     .default_divider
+    {
+        margin: 20px auto;
+    }
+}
+
+.agency-slider{
+    .agent-item {
+        background: #fff;
+        border: 1px solid #D9D7DA;
+        text-align: center;
+      }
+      
+      .carousel-item-text {
+        padding: 12px;
+      }
+      
+      .agent-item .item-kicker {
+        color: #9A5053;
+        display: block;
+        font-size: .8em;
+        font-weight: 600;
+        height: 30px;
+        margin-bottom: 16px;
+        overflow: hidden;
+        text-transform: uppercase;
+      }
+      
+      .agent-item .item-title {
+        color: #646464;
+        font-size: 1em;
+        font-weight: 600;
+        height: 38px;
+        margin: 0;
+        overflow: hidden;
+      }
+      
+      .owl-dots {
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .owl-dot {
+        border-radius: 50px;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        background: rgba(127, 127, 127, 0.5);
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      
+      .owl-dot.active {
+        background: rgba(127, 127, 127, 1);
+      }
+      
+           
+}
+.side-menu 
+{
+    .side-nav {
+        text-align: right;
+    }
+    p{
+        text-align: center;
+    }
+}
+ 
+    .navbar-nav {
+        .nav-link:first-of-type
+ {
+        color: #000;
+    word-break: unset;
+    letter-spacing: unset;
+    font-size: 20px;
+    
+}
+     
+}
+
+@media (min-width:768px) {
+    .sidemenu_btn
+    {
+        display: none !important;
+        
+    }
+}
+
+@media (max-width:767px)
+{
+    .sidemenu_btn
+    {
+        left: 15px;
+        right: unset !important;
+        
+    } 
+}
+.progress-bar {
+   
+    background-color: #ee272f;
+}
