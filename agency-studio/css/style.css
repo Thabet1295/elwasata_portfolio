@@ -1726,7 +1726,7 @@ body {
 /* Stats Section */
 
 .stats_section{
-    background: url("../img/HERO.png");
+    background: url("../img/Riad.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1758,7 +1758,7 @@ body {
 
 .half_section_main .half_section_picture{
     left: 0;
-    background: url(../img/halfsection.jpg);
+    background: url(../img/aboutus.png);
     position: absolute;
     z-index: 1;
     top: 0;
@@ -4105,3 +4105,25 @@ p.logomap {
 
 }
 
+
+@media(max-width:768px)
+{
+    .default_divider{
+        display: none;
+    }
+    .cbp-l-filters-buttonCenter 
+    {
+        margin-top: 20px;
+    }
+    .footer_section .newsletter-subscribe form .form-control 
+    {
+        width: 51%;
+        padding: 21px 0px !important; 
+    }
+}
+
+.cbp-l-grid-mosaic-flat .cbp-l-caption-title
+{
+    font-family: "Cairo";
+
+}
