@@ -4127,3 +4127,8 @@ p.logomap {
     font-family: "Cairo";
 
 }
+body {
+ 
+    letter-spacing: 0px;
+}
+

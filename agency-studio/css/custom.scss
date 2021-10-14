@@ -35,22 +35,13 @@ body,h1,h2,h3,h4,h5,h6,p,a,button,.cbp-l-filters-buttonCenter .cbp-filter-item{
         outline: none;
         color: inherit;
         text-indent: 9px;
-        padding: 21px 32px;
-         margin: 0 !important;
+        padding: 19px 23px;
+        margin: 0 !important;
+        border-radius: unset;
      }
     
     .newsletter-subscribe form .btn {
-        padding: 16px 32px;
-        border: none;
-        background: none;
-        box-shadow: none;
-        text-shadow: none;
-        opacity: 0.9;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 13px;
-        letter-spacing: 0.4px;
-        line-height: 1
+       
     }
     
     .newsletter-subscribe form .btn:hover {
@@ -68,6 +59,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,button,.cbp-l-filters-buttonCenter .cbp-filter-item{
         outline: none !important;
         border: unset;
         border-radius: 5px;
+        border-radius: unset;
 
     }
     
@@ -109,6 +101,12 @@ body,h1,h2,h3,h4,h5,h6,p,a,button,.cbp-l-filters-buttonCenter .cbp-filter-item{
      .default_divider
     {
         margin: 20px auto;
+    }
+    .contact-table {
+        .cells{
+            text-align: right;
+            padding: 0px 10px;
+        }
     }
 }
 
@@ -211,4 +209,9 @@ body,h1,h2,h3,h4,h5,h6,p,a,button,.cbp-l-filters-buttonCenter .cbp-filter-item{
 .progress-bar {
    
     background-color: #ee272f;
+}
+.tp-bgimg {
+    .defaultimg {
+        background-image: url("../img/sliderbg.jpg") !important;
+    }
 }
