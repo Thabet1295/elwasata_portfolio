@@ -4146,15 +4146,10 @@ body {
     transition: 300ms;
     padding-left: 10px;
 }
-.agency-slider-carosuel .owl-item img {
-    display: block;
-    width: 100%;
-    max-height: 245px;
-    min-height: 245px;
-}
+ 
 
-@media (max-width:768px) {
+ 
     .tp-caption img {
        display: none;
     }
-}
+ 
