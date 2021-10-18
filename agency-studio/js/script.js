@@ -474,50 +474,43 @@ if ($("body").hasClass("countdown")){
 
 
 /*animated elements banner*/
+
+/*animated elements banner*/
 $("#rev_single").show().revolution({
-    sliderType: "standard",
+    sliderType: "hero",
     jsFileLocation: "revolution/js/",
-    sliderLayout: "اhero",
+    sliderLayout: "fullscreen",
     dottedOverlay: "none",
     delay: 9000,
     navigation: {
     },
     responsiveLevels: [1240, 1024, 778, 480],
-        visibilityLevels: [1240, 1024, 778, 480],
-        gridwidth: [1140, 1024, 778, 480],
-        gridheight: [700, 768, 960, 420],
-        lazyType: "none",
-        parallax: {
-            type: "mouse",
-            origo: "enterpoint",
-            speed: 400,
-            speedbg: 0,
-            speedls: 0,
-            levels: [2, 3, 5, 10, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
-            disable_onmobile: "on"
-        },
-        shadow: 0,
-        spinner: "spinner2",
-        stopLoop: "true",
-        stopAfterLoops: -1,
-        stopAtSlide: -1,
-        shuffle: "true",
-        autoHeight: "off",
-        fullScreenAutoWidth: "off",
-        fullScreenAlignForce: "off",
-        fullScreenOffsetContainer: "",
-        fullScreenOffset: "",
-        disableProgressBar: "on",
-        hideThumbsOnMobile: "off",
-        hideSliderAtLimit: 0,
-        hideCaptionAtLimit: 0,
-        hideAllCaptionAtLilmit: 0,
-        debugMode: false,
-        fallbacks: {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false,
-        }
+    visibilityLevels: [1240, 1024, 778, 480],
+    gridwidth: [1240, 1024, 778, 480],
+    gridheight: [868, 768, 960, 720],
+    lazyType: "none",
+    parallax: {
+        type: "mouse",
+        origo: "slidercenter",
+        speed: 400,
+        levels: [9,10, 15, 20, 25, 30, 35, 40,  -10, -15, -20, -25, -30, -35, -40, -45, 55]
+    },
+    shadow: 0,
+    spinner: "off",
+    autoHeight: "off",
+    fullScreenAutoWidth: "off",
+    fullScreenAlignForce: "off",
+    fullScreenOffsetContainer: "",
+    disableProgressBar: "on",
+    hideThumbsOnMobile: "off",
+    hideSliderAtLimit: 0,
+    hideCaptionAtLimit: 0,
+    hideAllCaptionAtLilmit: 0,
+    debugMode: false,
+    fallbacks: {
+        simplifyAll: "off",
+        disableFocusListener: false
+    }
 });
 
 
