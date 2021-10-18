@@ -477,7 +477,7 @@ if ($("body").hasClass("countdown")){
 $("#rev_single").show().revolution({
     sliderType: "standard",
     jsFileLocation: "revolution/js/",
-    sliderLayout: "fullscreen",
+    sliderLayout: "اhero",
     dottedOverlay: "none",
     delay: 9000,
     navigation: {
